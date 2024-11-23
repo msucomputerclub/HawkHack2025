@@ -23,11 +23,8 @@ const Header = () => {
 
         <header>
             <div className="header-container">
-                <div className="img-container">
-                    <Link to="/" >
-                        <img src="" alt="Montclair State University's Computer Club Logo" />
-                    </Link>
-                </div>
+                <a className="logo" href="#home">Hawk Hack</a>
+
                 <div className="link-container">
                     <a href="#home">Home</a>
                     <a href="#about">About</a>

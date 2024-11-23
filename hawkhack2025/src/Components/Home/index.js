@@ -1,8 +1,10 @@
 import React from "react";
 import './index.scss'
 import { TypeAnimation } from "react-type-animation";
+import Timer from "../Timer/index.tsx";
 
 const Home = () => {
+    const launchDate = '2025-04-10T00:00:00';
     return (
         <div className="home-page">
             <div className="join-us">
@@ -22,6 +24,17 @@ const Home = () => {
                     style = {{ fontSize:'40px', display:'inline-block', color:'#fff'}}
                     repeat={Infinity}
                 />
+                <a className="button" href="www.google.com" target={"_blank"}>
+                        <h1 className="apply">Apply Now!</h1>
+                </a>
+
+            </div>
+            <div className="count-down">
+                <div className="date">
+                    <span className="date-text">April 10-12, 2025</span>
+                </div>
+                <Timer launchDate={launchDate} />
+
             </div>
         </div>
     )
