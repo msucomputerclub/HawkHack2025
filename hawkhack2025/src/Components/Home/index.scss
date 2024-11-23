@@ -1,0 +1,20 @@
+html, body {
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100%; /* Ensure the entire viewport height is used */
+    margin: 0; /* Remove any default margin for better alignment */
+
+}
+
+
+.dflex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-page {
+    @extend .dflex;
+    height: 100vh;
+    background-color: gray;
+}
