@@ -16,5 +16,19 @@ html, body {
 .home-page {
     @extend .dflex;
     height: 100vh;
-    background-color: #fff
+    background-color: #333333
+}
+
+.join-us {
+    @extend .dflex;
+    flex-direction: column;
+    align-items: left;
+}
+h1 {
+    color:#fff;
+    font-size: 20px;
+}
+
+.hawkhack {
+    font-size: 60px;
 }
