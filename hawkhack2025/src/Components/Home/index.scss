@@ -95,3 +95,8 @@ section {
     scroll-snap-align: auto;
     height: 100vh;
 }
+
+#team{
+    scroll-snap-align: auto;
+    overflow-y: auto;
+}

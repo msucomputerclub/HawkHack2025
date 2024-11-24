@@ -11,6 +11,7 @@ const Faq = () => {
             question:"When and where is HawkHack?",
             answer:(
             <>
+            <br />
             HawkHack 2025 will be happening from April 10th-12th at our the student center 
             of our univeristy campus located at{" "}
             <a 
@@ -28,30 +29,36 @@ const Faq = () => {
                 >
                     here
             </a>
+            <br />
             </>),
         },
         {
             id: 2,
             question:"Who can sign up to compete?",
             answer:(<>
+            <br />
             Any undergraduate or graduate student at any college in the US can sign up as long as they 
             are 18 or older. No experience is required!
+            <br />
             </>),
         },
         {
             id: 3,
             question:"Do I have to register with a team?",
             answer:(<>
+            <br />
             No, but if you would like to you can! You're welcome to register with your friends 
             or you can find a team at the event or in the discord.
+            <br />
             </>),
         },
         {
             id: 4,
             question:"Do I need to pay to participate?",
             answer:(
-                <>
+                <>  <br />
                     Nope! No fee is required. However, you are required to bring your own laptop in order to develop.
+                    <br />
                 </>
             ),
         },
@@ -60,7 +67,9 @@ const Faq = () => {
             question:"What should I bring?",
             answer:(
                 <>
+                    <br />
                     You should bring your own hardware to develop your project as we will not provide any. 
+                    <br />
                 </>
             ),
         },
@@ -69,8 +78,10 @@ const Faq = () => {
             question:"What can't I bring?",
             answer:(
                 <>
+                    <br />
                     You are not allowed to bring a desktop because we will not be able to accommodate the space for it.
                     Futhermore, you are not allowed to bring any illegal substances, drugs, alcohol, or any weapons of any kind.
+                    <br />
                 </>
             ),
         },
@@ -78,8 +89,9 @@ const Faq = () => {
             id: 7,
             question:"Can a member of our team be at the event virtually?",
             answer:(
-                <>
+                <>  <br />
                     No, all members must be present in order to participate and each member must check in at the beginning of the event.
+                    <br />
                 </>
             ),
         },
@@ -88,6 +100,7 @@ const Faq = () => {
             question:"What if I have other questions?",
             answer:(
                 <>
+                    <br />
                     Please refer to our Devpost page listed {" "}
                     <a 
                         href="https://devpost.com"
@@ -100,6 +113,7 @@ const Faq = () => {
                         target={"_blank"}
                         >ComputingClub@sgamsu.org
                     </a>.
+                    <br />
                 </>
             ),
         },
