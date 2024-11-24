@@ -64,11 +64,12 @@ h1 {
     @extend .dflex;
     width: 50%;
     height: 100vh;
+    position: relative;
 }
 
 .date {
     @extend .dflex;
-    position: absolute;
+    position:absolute;
     top: 15%;
     right: -20px;
     background-color: #fff;
@@ -83,4 +84,14 @@ h1 {
     padding-right: 20px;
     font-weight: 700;
     color: #d1190d;
+}
+
+section {
+    scroll-snap-align: center;
+    height: 100vh;
+}
+
+#faq {
+    scroll-snap-align: auto;
+    height: 100vh;
 }
