@@ -16,7 +16,7 @@
     width: 100%;
     justify-content: center;
     align-items: center;
-    gap:5em;
+    gap:3em;
 }
 .face-card {
     display: flex;
@@ -64,5 +64,47 @@
     box-shadow: 0 12px 8px rgba(0, 0, 0, 0.2);
     scale: (1.05);
 }
+
+@media (max-width:1024px){
+    .face-container {
+        height: 12em;
+        width: 12em;
+    }
+    .name {
+        font-size: 1.5em;
+    }
+}
+
+@media (max-width:768){
+    .face-container {
+        height: 10em;
+        width: 10em;
+    }
+    .name {
+        font-size: 1.25em;
+    }
+    .meet {
+        font-size: 3em;
+        font-weight: 700;
+    }
+}
+
+@media (max-width: 480px) {
+    .face-container {
+        height: 8em;
+        width: 8em;
+    }
+    .name {
+        font-size: 1em;
+    }
+    .meet {
+        font-size: 2em;
+        font-weight: 700;
+    }
+    .face-cards {
+        gap: 2em; /* Smaller gap for smaller screens */
+    }
+}
+
 
 

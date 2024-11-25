@@ -4,7 +4,7 @@ import { TypeAnimation } from "react-type-animation";
 import Timer from "../Timer/index.tsx";
 import About from "../About";
 import Faq from "../Faq";
-import Team from "../Team/index";
+import Team from "../Team/";
 
 const Home = () => {
     const launchDate = '2025-04-10T00:00:00';
@@ -38,7 +38,7 @@ const Home = () => {
                     <div className="date">
                         <span className="date-text">April 10-12, 2025</span>
                     </div>
-                    <Timer launchDate={launchDate} />
+                    <Timer launchDate={launchDate}/>
 
                 </div>
                 

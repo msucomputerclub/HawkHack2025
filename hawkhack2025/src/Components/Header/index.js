@@ -52,102 +52,108 @@ const Header = () => {
                         className="menu-container">
                         <div className="btn-close" onClick={toggleMenu}>&times;</div>
                             <div onClick={()=>setMenuOpen(false)}>
-                                <Link to="#home">
-                                    <motion.p
-                                        initial={{y:80,opacity:0}}
-                                        animate={{y:0,opacity:1}}
-                                        transition={{delay:.6}}
-                                        exit={{
-                                            opacity:0,
-                                            y:90,
-                                            transition:{
-                                            ease:"easeInOut",
-                                            delay:.6}
-                                        }}>
-                                    Home</motion.p>
-                                </Link>
-                                </div>
-                                <div onClick={()=>setMenuOpen(false)}>
-                                    <Link to="#about">
-                                        <motion.p
-                                        initial={{y:80,opacity:0}}
-                                        animate={{y:0,opacity:1}}
-                                        transition={{delay:.5}}
-                                        exit={{
-                                            opacity:0,
-                                            y:90,
-                                            transition:{
-                                            ease:"easeInOut",
-                                            delay:.5
-                                            }
-                                        }}>
-                                        About</motion.p>
-                                    </Link>
-                                </div>
-                                <div onClick={()=>setMenuOpen(false)}>
-                                    <Link to="#faq">
-                                        <motion.p
-                                            initial={{y:80,opacity:0}}
-                                            animate={{y:0,opacity:1}}
-                                            transition={{delay:.4}}
-                                            exit={{
-                                                opacity:0,
-                                                y:90,
-                                                transition:{
-                                                ease:"easeInOut",
-                                                delay:.4}
-                                            }}>
-                                            FAQ</motion.p>
-                                    </Link>
-                                </div>
-                                <div onClick={()=>setMenuOpen(false)}>
-                                    <Link to="#Prizes">
-                                        <motion.p
-                                            initial={{y:80,opacity:0}}
-                                            animate={{y:0,opacity:1}}
-                                            transition={{delay:.3}}
-                                            exit={{
-                                                opacity:0,
-                                                y:90,
-                                                transition:{
-                                                ease:"easeInOut",
-                                                delay:.3}
-                                            }}>
-                                            Prizes</motion.p>
-                                    </Link>
-                                </div>
-                                <div onClick={()=>setMenuOpen(false)}>
-                                    <Link to="#sponsors">
-                                        <motion.p
-                                            initial={{y:80,opacity:0}}
-                                            animate={{y:0,opacity:1}}
-                                            transition={{delay:.2}}
-                                            exit={{
-                                                opacity:0,
-                                                y:90,
-                                                transition:{
-                                                ease:"easeInOut",
-                                                delay:.2}
-                                            }}>
-                                            Sponsors</motion.p>
-                                    </Link>
-                                </div>
-                                <div onClick={()=>setMenuOpen(false)}>
-                                    <Link to="#team">
-                                        <motion.p
-                                            initial={{y:80,opacity:0}}
-                                            animate={{y:0,opacity:1}}
-                                            transition={{delay:.1}}
-                                            exit={{
-                                                opacity:0,
-                                                y:90,
-                                                transition:{
-                                                ease:"easeInOut",
-                                                delay:.1}
-                                            }}>
-                                            Team</motion.p>
-                                    </Link>
-                                </div>
+                                <motion.a
+                                    className="motion-a"
+                                    href="#home"
+                                    initial={{y:80,opacity:0}}
+                                    animate={{y:0,opacity:1}}
+                                    transition={{delay:.6}}
+                                    exit={{
+                                        opacity:0,
+                                        y:90,
+                                        transition:{
+                                        ease:"easeInOut",
+                                        delay:.6}
+                                    }}>
+                                        Home
+                                </motion.a>
+                            </div>
+                            <div onClick={()=>setMenuOpen(false)}>
+                                <motion.a
+                                    className="motion-a"
+                                    href="#about"
+                                    initial={{y:80,opacity:0}}
+                                    animate={{y:0,opacity:1}}
+                                    transition={{delay:.5}}
+                                    exit={{
+                                        opacity:0,
+                                        y:90,
+                                        transition:{
+                                        ease:"easeInOut",
+                                        delay:.5
+                                        }
+                                    }}>
+                                         About
+                                </motion.a>
+                            </div>
+                            <div onClick={()=>setMenuOpen(false)}>
+                                <motion.a
+                                    className="motion-a"
+                                    href="#faq"
+                                    initial={{y:80,opacity:0}}
+                                    animate={{y:0,opacity:1}}
+                                    transition={{delay:.4}}
+                                    exit={{
+                                        opacity:0,
+                                        y:90,
+                                        transition:{
+                                        ease:"easeInOut",
+                                        delay:.4}
+                                    }}>
+                                        FAQ
+                                </motion.a>
+                            </div>
+                            <div onClick={()=>setMenuOpen(false)}>
+                                <motion.a
+                                    href="#prizes"
+                                    className="motion-a"
+                                    initial={{y:80,opacity:0}}
+                                    animate={{y:0,opacity:1}}
+                                    transition={{delay:.3}}
+                                    exit={{
+                                        opacity:0,
+                                        y:90,
+                                        transition:{
+                                        ease:"easeInOut",
+                                        delay:.3}
+                                    }}> 
+                                        Prizes
+                                </motion.a>
+                            </div>
+                            <div onClick={()=>setMenuOpen(false)}>
+                                <motion.a
+                                    className="motion-a"
+                                    href="#sponsors"
+                                    initial={{y:80,opacity:0}}
+                                    animate={{y:0,opacity:1}}
+                                    transition={{delay:.2}}
+                                    exit={{
+                                        opacity:0,
+                                        y:90,
+                                        transition:{
+                                        ease:"easeInOut",
+                                        delay:.2}
+                                    }}>
+                                        Sponsors
+                                </motion.a>
+                            </div>
+                            <div onClick={()=>setMenuOpen(false)}>
+                                <motion.a
+                                    className="motion-a"
+                                    href="#team"
+                                    initial={{y:80,opacity:0}}
+                                    animate={{y:0,opacity:1}}
+                                    transition={{delay:.1}}
+                                    exit={{
+                                        opacity:0,
+                                        y:90,
+                                        transition:{
+                                        ease:"easeInOut",
+                                        delay:.1}
+                                    }}>
+                                        Team
+                                </motion.a>
+                            </div>
                         </motion.div>
                     )
                 }

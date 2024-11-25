@@ -82,7 +82,7 @@
         flex-direction: column;
         z-index: 10;
 
-        p { 
+        .motion-a{ 
             display: inline-flex;
             color: #fff;
             text-decoration: none;
@@ -93,12 +93,12 @@
             margin-top: 50px;
 
         }
-        p:hover {
+        .motion-a:hover {
             color: #333333;
             cursor: pointer;
         }
 
-        +p {
+        +.motion-a {
             margin-top: 0;
 
         }
