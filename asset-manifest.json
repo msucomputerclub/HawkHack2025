@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/HawkHack2025/static/css/main.686fd79a.css",
-    "main.js": "/HawkHack2025/static/js/main.73492bb6.js",
+    "main.css": "/HawkHack2025/static/css/main.c4123fb1.css",
+    "main.js": "/HawkHack2025/static/js/main.3cd1129f.js",
     "static/js/453.517c52c2.chunk.js": "/HawkHack2025/static/js/453.517c52c2.chunk.js",
     "static/media/kevin.jpg": "/HawkHack2025/static/media/kevin.92d670f8b6f59cebf5cc.jpg",
     "static/media/red-hawk.jpeg": "/HawkHack2025/static/media/red-hawk.a70d44e41bb269ecb84a.jpeg",
     "index.html": "/HawkHack2025/index.html",
-    "main.686fd79a.css.map": "/HawkHack2025/static/css/main.686fd79a.css.map",
-    "main.73492bb6.js.map": "/HawkHack2025/static/js/main.73492bb6.js.map",
+    "main.c4123fb1.css.map": "/HawkHack2025/static/css/main.c4123fb1.css.map",
+    "main.3cd1129f.js.map": "/HawkHack2025/static/js/main.3cd1129f.js.map",
     "453.517c52c2.chunk.js.map": "/HawkHack2025/static/js/453.517c52c2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.686fd79a.css",
-    "static/js/main.73492bb6.js"
+    "static/css/main.c4123fb1.css",
+    "static/js/main.3cd1129f.js"
   ]
 }
