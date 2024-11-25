@@ -22,7 +22,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy":"npm run build",
+    "predeploy":"cd hawkhack2025 && npm run build",
     "deploy":"gh-pages -d build"
   },
   "eslintConfig": {
