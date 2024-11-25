@@ -87,7 +87,7 @@ h1 {
 }
 
 section {
-    scroll-snap-align: start;
+    scroll-snap-align: center;
     height: 100vh;
 }
 
@@ -127,11 +127,14 @@ section {
     }
     
     .hawkhack {
-        font-size: 40px;
+        font-size: 2rem;
+    }
+    .presents {
+        font-size: 1rem;
     }
     .button {
         width: 50%;
-        padding: 12px;
+        padding: 0.25rem;
     }
 
     .apply {
@@ -148,3 +151,4 @@ section {
 
 
 }
+

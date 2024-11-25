@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect} from "react";
 import './index.scss'
 import { TypeAnimation } from "react-type-animation";
 import Timer from "../Timer/index.tsx";
@@ -8,12 +8,31 @@ import Team from "../Team/";
 
 const Home = () => {
     const launchDate = '2025-04-10T00:00:00';
+
+        // State to store window width
+        const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+
+        // Update window width when the window is resized
+        useEffect(() => {
+            const handleResize = () => {
+                setWindowWidth(window.innerWidth);
+            };
+    
+            window.addEventListener("resize", handleResize);
+    
+            return () => window.removeEventListener("resize", handleResize);
+        }, []);
+    
+        // Calculate font size based on the window width
+        const fontSize = windowWidth <= 480 ? '1.25rem' : windowWidth <= 768 ? '1.5rem' : '40px';
+
+
     return (
         <div>
             <section id="home">
             <div className="home-page">
                 <div className="join-us">
-                    <h1>Montclair State University Computing Club Presents</h1>
+                    <h1 className="presents">Montclair State University Computing Club Presents</h1>
                     <h1 className="hawkhack">HawkHack 2025</h1>
                     <TypeAnimation 
                         sequence={[
@@ -26,7 +45,7 @@ const Home = () => {
                         ]}
                         wrapper="span"
                         speed={50}
-                        style = {{ fontSize:'40px', display:'inline-block', color:'#fff'}}
+                        style = {{ fontSize:fontSize, display:'inline-block', color:'#fff'}}
                         repeat={Infinity}
                     />
                     <a className="button" href="www.google.com" target={"_blank"}>
@@ -53,7 +72,6 @@ const Home = () => {
             <section id="team">
                 <Team />
             </section>
-
 
         </div>
     )
