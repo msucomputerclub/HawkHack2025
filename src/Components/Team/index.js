@@ -1,5 +1,7 @@
 import React from "react";
 import './index.scss'
+import Alex from "../../Assets/Images/alex.jpg"
+import Tyler from "../../Assets/Images/tyler.jpg"
 import Kevin from '../../Assets/Images/kevin.jpg'
 import { AnimatePresence, motion } from "framer-motion";
 
@@ -13,7 +15,7 @@ const Team = () => {
             <div className="face-cards">
                 <div className="face-card">
                     <div className="face-container">
-                        <img className="headshot"src="" alt="" />
+                        <img className="headshot"src={Tyler} alt="" />
                     </div>
                     <span className="name">Tyler Van Buren</span>
                     <span className="job-title">President</span>
@@ -23,7 +25,7 @@ const Team = () => {
                 </div>
                 <div className="face-card">
                     <div className="face-container">
-                        <img className="headshot"src="" alt="" />
+                        <img className="headshot"src={Alex} alt="" />
                     </div>
                     <span className="name">Alexander Crespo</span>
                     <span className="job-title">Vice President</span>
