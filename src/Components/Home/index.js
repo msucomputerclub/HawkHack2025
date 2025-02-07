@@ -48,7 +48,7 @@ const Home = () => {
                         style = {{ fontSize:fontSize, display:'inline-block', color:'#fff'}}
                         repeat={Infinity}
                     />
-                    <a className="button" href="www.google.com" target={"_blank"}>
+                    <a className="button" href="https://www.google.com" target={"_blank"}>
                             <h1 className="apply">Apply Now!</h1>
                     </a>
 
