@@ -7,7 +7,7 @@ import Faq from "../Faq";
 import Team from "../Team/";
 
 const Home = () => {
-    const launchDate = '2025-04-10T00:00:00';
+    const launchDate = '2025-04-12T00:00:00';
 
         // State to store window width
         const [windowWidth, setWindowWidth] = useState(window.innerWidth);
@@ -55,7 +55,7 @@ const Home = () => {
                 </div>
                 <div className="count-down">
                     <div className="date">
-                        <span className="date-text">April 10-12, 2025</span>
+                        <span className="date-text">April 12-13, 2025</span>
                     </div>
                     <Timer launchDate={launchDate}/>
 

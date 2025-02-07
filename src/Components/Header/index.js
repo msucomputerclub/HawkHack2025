@@ -1,7 +1,8 @@
-import React, {useEffect, useState} from "react";
-import { Link } from "react-router-dom";
+import React, {useState} from "react";
 import './index.scss'
 import { AnimatePresence, motion } from "framer-motion";
+import Logo from "../../Assets/Images/HawkHack-Logo.png"
+
 const Header = () => {
     const [menuOpen,setMenuOpen] = useState(false);
     const toggleMenu = () => {
@@ -23,7 +24,9 @@ const Header = () => {
 
         <header>
             <div className="header-container">
-                <a className="logo" href="#home">Hawk Hack</a>
+                <a className="logo" href="#home">
+                    <img src={Logo} alt="" />
+                </a>
 
                 <div className="link-container">
                     <a href="#home">Home</a>

@@ -1,6 +1,6 @@
 import React from "react";
 import './index.scss'
-import RedHawk from '../../Assets/Images/red-hawk.jpeg'
+import RedHawk from '../../Assets/Images/Rocky-Coding.png'
 const About = () => {
     return (
         <div className="about">
@@ -22,7 +22,7 @@ const About = () => {
                 </p>
             </div>
             <div className="img-container">
-                <img src={RedHawk} alt="AI generated image of a Red Hawk Coding" />
+                <img src={RedHawk} alt="Rocky the Red Hawk coding!" />
             </div>
 
         </div>
