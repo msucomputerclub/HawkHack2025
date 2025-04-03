@@ -32,8 +32,8 @@ const Header = () => {
                     <a href="#home">Home</a>
                     <a href="#about">About</a>
                     <a href="#faq">FAQ</a>
-                    <a href="#prizes">Prizes</a>
-                    <a href="#sponsors">Sponsors</a>
+                    {/* <a href="#prizes">Prizes</a> */}
+                    {/* <a href="#sponsors">Sponsors</a> */}
                     <a href="#team">Team</a>
                 </div> 
                 <div className="menu" onClick={toggleMenu}>
